@@ -39,7 +39,7 @@ const CustomerDetails: React.FC<CustomerDetailsProps> = ({ customer }) => {
         <div className="w-full text-center text-5xl font-bold my-4 mb-6">
           {customer.firstName} {customer.lastName}
         </div>
-        <div className="mb-1">
+        <div className="mb-1 px-6 my-4  text-center">
           {`My name is ${customer.firstName} ${customer.lastName} and I am ${customer.age} years old, and I am a ${customer.gender} and my blood group is ${customer.bloodGroup}.`}
           {`I live in ${customer.address.address}, ${customer.address.city}, ${
             customer.address.state

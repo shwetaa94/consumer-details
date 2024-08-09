@@ -27,7 +27,7 @@ const CustomerList: React.FC<CustomerListProps> = ({
               {customer.firstName} {customer.lastName}
             </h2>
             <div className="text-sm sm:text-base md:text-lg lg:text-xl">
-              <p className="h-11 md:h-20 overflow-hidden hidden md:block">
+              <p className="h-11  md:h-20 leading-tight tracking-tight overflow-hidden hidden md:block">
                 {`My name is ${customer.firstName} ${customer.lastName}, I am ${customer.age} years old, a ${customer.gender}, my blood group is ${customer.bloodGroup}, and 
                 I live in ${customer.address.address}, ${customer.address.state}`}
               </p>
