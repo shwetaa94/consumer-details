@@ -13,7 +13,7 @@ const CustomerList: React.FC<CustomerListProps> = ({
   selectedCustomer,
 }) => {
   return (
-    <div className="min-w-44 w-[24%] bg-gray-50 border-r border-gray-300  overflow-y-scroll">
+    <div className="h-screen min-w-44 w-[24%] bg-gray-50 border-r border-gray-300  overflow-y-scroll">
       {customers.map((customer) => (
         <div
           key={customer.id}
